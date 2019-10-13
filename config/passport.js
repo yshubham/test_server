@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 
 // Load User model
-const User = require('d:/Temp/satoshi-1/models/User');
+const User = require('../models/user');
 
 module.exports = function(passport) {
   passport.use(
